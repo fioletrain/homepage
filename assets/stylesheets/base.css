@@ -1049,3 +1049,8 @@ footer {
     margin-bottom: 0;
   }
 }
+.img-footer {
+  width: 55%; 
+  max-width: 100%; 
+  align: center;
+}
