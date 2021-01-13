@@ -22,8 +22,14 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu, Cantarell,
+    "Helvetica Neue",
+    sans-serif;
 }
 h1,
 h2,
@@ -66,7 +72,7 @@ h2 + p {
   font-size: 1.5rem;
   margin-bottom: 0.25em;
 }
-h2 + p + p{
+h2 + p + p {
   font-weight: 300;
   font-size: 1.5rem;
   margin-bottom: 0.25em;
@@ -156,10 +162,10 @@ a.language:hover span {
   text-decoration: underline;
 }
 code {
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
   padding: 0em 0.25em;
   border-radius: 3px;
-  background: #EEEEEE;
+  background: #eee;
   font-size: 95%;
 }
 
@@ -308,24 +314,25 @@ article {
 }
 
 /**
- * # Semantic UI - 2.4.2
- * https://github.com/Semantic-Org/Semantic-UI
- * https://www.semantic-ui.com/
- * Copyright 2014 Contributors
- * Released under the MIT license
- * https://opensource.org/licenses/MIT
- */
+  * # Semantic UI - 2.4.2
+  * https://github.com/Semantic-Org/Semantic-UI
+  * https://www.semantic-ui.com/
+  * Copyright 2014 Contributors
+  * Released under the MIT license
+  * https://opensource.org/licenses/MIT
+*/
 .grid {
-  display: flex;
+  display: flex block !important;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
   padding: 0;
+
   /**
-   * Temporary hack to be sure avatar
-   * is rendered on print preview
-   */
+  * Temporary hack to be sure avatar
+  * is rendered on print preview
   display: block !important;
+*/
 }
 .grid .grid {
   margin-left: -1em;
@@ -347,6 +354,7 @@ article {
 }
 
 /* Columns */
+
 /* Standard 16 column */
 .grid > .column:not(.row),
 .grid > .row > .column {
@@ -363,6 +371,7 @@ article {
 }
 
 /* Columns */
+
 /* Vertical padding when no rows */
 .grid > .column:not(.row) {
   padding-top: 1rem;
@@ -621,7 +630,7 @@ article {
   color: #0077b5;
 }
 .contacts li a.telegram:hover {
-  color: #0088cc;
+  color: #08c;
 }
 .contacts li a.phone:hover {
   color: dimgrey;
@@ -1047,6 +1056,7 @@ footer {
     padding: 1em;
   }
 }
+
 @media print {
   header,
   footer {
