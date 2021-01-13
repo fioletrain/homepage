@@ -1062,5 +1062,9 @@ footer {
 .img-footer {
   width: 35%; 
   max-width: 100%; 
-  align: center;
+  display:block;
+  margin:auto;
+}
+.achi {
+  padding-bottom: 7px;
 }
