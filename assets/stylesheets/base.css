@@ -57,6 +57,10 @@ h2 {
   font-size: 3rem;
   letter-spacing: 0.25em;
 }
+p {
+  margin: 0 0 1em;
+  line-height: 1.4285em;
+}
 h2 + p {
   font-weight: 300;
   font-size: 1.5rem;
@@ -86,10 +90,6 @@ h6 {
 }
 section {
   padding: 1em 0;
-}
-p {
-  margin: 0 0 1em;
-  line-height: 1.4285em;
 }
 p:first-child {
   margin-top: 0;
@@ -240,6 +240,7 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   article {
     width: 723px;
@@ -247,6 +248,7 @@ article {
     margin-bottom: calc((100% - 723px) / 2);
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   article {
     width: 933px;
@@ -254,6 +256,7 @@ article {
     margin-bottom: calc((100% - 933px) / 2);
   }
 }
+
 @media only screen and (min-width: 1200px) {
   article {
     width: 1127px;
@@ -287,11 +290,13 @@ article {
   pointer-events: none;
   transition: border-color 0.2s ease-in-out;
 }
+
 @media only screen {
   .page:hover {
     box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
   }
 }
+
 @media only screen and (max-width: 767px) {
   .page,
   .page[style^="border-color"] {
@@ -502,6 +507,7 @@ article {
 .grid > .row > [class*="mobile only"].column {
   display: none;
 }
+
 @media only screen and (max-width: 767px) {
   [class*="mobile only"].grid,
   .grid > [class*="mobile only"].row,
@@ -525,6 +531,7 @@ article {
   max-width: 15rem;
   width: 100%;
 }
+
 @media only screen and (max-width: 1199px) {
   .avatar-wrapper {
     padding: 0;
@@ -638,6 +645,7 @@ article {
     margin-right: 0;
   }
 }
+
 @media only screen and (max-width: 1199px) {
   .contacts {
     margin-top: 1em;
@@ -980,6 +988,7 @@ dialog:target ~ * {
 .credits:hover {
   opacity: 1;
 }
+
 @media only screen and (max-width: 767px) {
   .credits {
     display: none;
@@ -1020,6 +1029,7 @@ footer {
   justify-content: center;
   z-index: 1;
 }
+
 @media only screen and (max-width: 767px) {
   header {
     height: auto;
@@ -1050,7 +1060,7 @@ footer {
   }
 }
 .img-footer {
-  width: 25%; 
+  width: 35%; 
   max-width: 100%; 
   display:block;
   margin:auto;
