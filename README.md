@@ -1,5 +1,6 @@
 # homepage
-My very own personal website. Basically this is just a résumé.
+Ruy's very own personal website. Basically this is just a résumé.
+***
 
 This is the personal website for The Most Powerful Street Fighter Character - RYU HOSHI.
 
