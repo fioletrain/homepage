@@ -1050,7 +1050,11 @@ footer {
   }
 }
 .img-footer {
-  width: 55%; 
+  width: 25%; 
   max-width: 100%; 
-  align: center;
+  display:block;
+  margin:auto;
+}
+.achi {
+  padding-bottom: 7px;
 }
